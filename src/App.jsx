@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
-
-const X_IMG = "/src/assets/img1.jpg";
-const O_IMG = "/src/assets/img2.png";
+import X_IMG from '/src/assets/img1.jpg'; 
+import O_IMG from '/src/assets/img2.png'; 
 
 function Square({ value, onSquareClick }) {
   return (
