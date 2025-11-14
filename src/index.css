@@ -88,10 +88,9 @@ body {
 .square img {
   width: 40px;
   height: 40px;
-  pointer-events: none; /* Evita que la imagen "tape" el clic del botón */
+  pointer-events: none; 
 }
 
-/* --- Estilos del Modal de Easter Egg --- */
 .easter-egg-modal {
   position: fixed;
   top: 50%;
